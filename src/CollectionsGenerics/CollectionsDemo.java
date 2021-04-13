@@ -110,7 +110,7 @@ public class CollectionsDemo {
 		{
 			System.out.println(s.print());
 		}
-		//Sorting by rollno of students
+		//Sorting by rollno of students - Comparable interface used above
 		System.out.println();
 		Collections.sort(list);
 		for(Stud s : list)
